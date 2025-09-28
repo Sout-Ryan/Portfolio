@@ -12,7 +12,7 @@ html {
 body {
     /* Colocar imagem de fundo */
     background-color: rgb(107, 107, 107);
-    /* background-image: url(temas-de_fundo_HK_img/Menu_Theme_Classic_Current.webp); */
+    background-image: url(temas-de_fundo_HK_img/Menu_Theme_Classic_Current.webp);
     /* Ajustar para cobrir a tela toda */
     background-size: cover;
     /* Fixar a imagem para não rolar junto com a página */
@@ -68,8 +68,6 @@ header {
 .logoImg:hover {
     transform: rotate(10deg);
 }
-
-.div2 {}
 
 .buttonImg {
     width: 20px;
@@ -132,7 +130,6 @@ main {
     border-radius: 20px;
     width: 500px;
 }
-
 
 .projetos {
     display: flex;
