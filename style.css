@@ -2,38 +2,52 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     /* Colocar imagem de fundo */
     background-color: rgb(107, 107, 107);
-    
     /* background-image: url(temas-de_fundo_HK_img/Menu_Theme_Classic_Current.webp); */
-    
     /* Ajustar para cobrir a tela toda */
     background-size: cover;
-    
-    /* Fixar a iamgem para não rolar junto com a página */
+    /* Fixar a imagem para não rolar junto com a página */
     background-attachment: fixed;
-    
     /* Centralizar a imagem */
     background-position: center;
-    
     /* Remover a repetição da imagem */
     background-repeat: no-repeat;
-
     /* Define uma altura mínima para a página */
     min-height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 .nav1 {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
+    /* display: flex;
+    margin: 0px;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(17, 26, 50, 0.8);
+    padding: 5px 200px;
+    border-bottom: 4px solid #050810; */
+
+    position: fixed;
+    top: 0;
+    background-color: rgba(17, 26, 50);
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    border: solid 2px #050810;
+    border-radius: 20px;
+    margin: 5px 20px;
 }
 
 .div1 {
@@ -41,13 +55,53 @@ body {
     align-items: center;
 }
 
-.logoimg {
-    width: 70px;
+.logoImg {
+    width: 15%;
+    cursor: crosshair;
 }
 
-.nomeinicio {
+.nomeInicio {
     color: white;
     font-weight: bold;
+}
+
+.logoImg:hover {
+    transform: rotate(10deg);
+}
+
+.div2 {}
+
+.buttonImg {
+    width: 20px;
+    ;
+}
+
+.navButtons {
+    background-color: rgba(17, 26, 50, 0.8);
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 10px 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: auto;
+    align-items: center;
+}
+
+.navButtons:hover {
+    transform: scale(1.05);
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin-bottom: 100px;
+    margin: 70px 40PX;
 }
 
 .dialogoPersonalizado {
@@ -56,9 +110,52 @@ body {
     margin: 0 auto;
 }
 
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px;
+}
+
+.euImg {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: -1px 0px 19px 5px #ff8c00;
+    -webkit-box-shadow: -1px 0px 19px 5px #ff8c00;
+    -moz-box-shadow: -1px 0px 19px 5px #ff8c00;    
+}
+
 .sobreMim {
+    text-align: center;
     color: white;
+    padding: 0px 30px;
+    background-color: rgba(17, 26, 50, 0.8);
+    border-radius: 20px;
+    width: 500px;
+}
+
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.projetoOnePiece {
+    border: solid 2px;
     margin: 0px 20px;
+    width: 200px;
+}
+
+.projetoOnePieceImg {
+    width: 90%;
+}
+
+.certificados {
+    width: 300px;
+}
+
+.certificados:hover {
+    animation: alternate-reverse;
 }
 
 footer {

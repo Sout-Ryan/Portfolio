@@ -1,58 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Tema Hollow Knight</title>
+    <title>Portfolio Ryan D.</title>
     <link rel="shortcut icon" href="icones_img/icon hollow knight.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body id="inicio">
     <header>
         <nav class="nav1">
             <div class="div1">
-
-                <img class="logoimg" src="icones_img/icon hollow knight.ico" alt="iconHK">
-                <h2 class="nome-inicio">Ryan D.</h2>
+                <img class="logoImg" src="icones_img/icon hollow knight.ico" alt="iconHK">
+                <h2 class="nomeInicio">Ryan D.</h2>
             </div>
 
             <div class="div2">
-                <button class="navbuttons">
-                    <img href="dialogoPersonalizado" src="icones_img/Dream_Wielder.webp" alt="">
-                    <p href="">Início</p>
-                </button>
+                <ul>
+                    <li class="navButtons">
+                        <img class="buttonImg" src="icones_img/Dream_Wielder.webp" alt="">
+                        <a class="a" href="#inicio">Início</a>
+                    </li>
 
-                <button class="navbuttons">
-                    <img src="icones_img/Dream_Wielder.webp" alt="">
-                    <p href="">Sobre mim</p>
-                </button>
+                    <li class="navButtons">
+                        <img class="buttonImg" src="icones_img/Dream_Wielder.webp" alt="">
+                        <a class="a" href="#sobre">Sobre</a>
+                    </li>
 
-                <button class="navbuttons">
-                    <img src="icones_img/Dream_Wielder.webp" alt="">
-                    <p href="">Projetos</p>
-                </button>
+                    <li class="navButtons">
+                        <img class="buttonImg" src="icones_img/Dream_Wielder.webp" alt="">
+                        <a class="a" href="#projetos">Projetos</a>
+                    </li>
 
-                <button class="navbuttons">
-                    <img src="icones_img/Dream_Wielder.webp" alt="">
-                    <p href="">Certificados</p>
-                </button>
+                    <li class="navButtons">
+                        <img class="buttonImg" src="icones_img/Dream_Wielder.webp" alt="">
+                        <a class="a" href="#certificados">Certificados</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <img class="dialogoPersonalizado" src="dialogos_personalizado_img/dialogo de boas vindas personalizado de hk.png" alt="dailogo personalizado de boas vindas" >
-        
-        <div class="sobreMim">
-            <img src="" alt="">
-            <h2>Sobre mim</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt id qui, excepturi veniam perferendis nisi beatae dolore dicta quos laborum quo cum obcaecati cumque eos? Voluptatibus dolore perferendis laboriosam?</p>
-        </div>
+        <img class="dialogoPersonalizado" src="dialogos_personalizado_img/Ryan d..png"
+            alt="dailogo personalizado de boas vindas">
+
+        <!-- Sobre mim -->
+        <section class="section1">
+            <img id="sobre" class="euImg" src="imagens/eu.jpg" alt="Eu">
+            <div class="sobreMim">
+                <h2>Sobre mim</h2>
+                <br>
+                <p>Me chamo Ryan e tenho 20 anos, estou cursando Análise e Desenvolvimento de Sistema 2°Semestre na
+                    Universidade de Mogi das Cruzes</p>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="projetos" id="projetos">
+            <h2>Projetos</h2>
+            <div class="projetoOnePiece">
+                <h3>One Pice personagens</h3>
+                <img class="projetoOnePieceImg" src="projetos/projeto one piece.png" alt="projeto one piece">
+                <p>Um projeto pessoal de 2023 quando estava aprendendo HTML e CSS</p>
+            </div>
+            <div class="projetoOnePiece">
+                <h3>One Pice personagens</h3>
+                <img class="projetoOnePieceImg" src="projetos/projeto one piece.png" alt="projeto one piece">
+                <p>Um projeto pessoal de 2023 quando estava aprendendo HTML e CSS</p>
+            </div>
+            <div class="projetoOnePiece">
+                <h3>One Pice personagens</h3>
+                <img class="projetoOnePieceImg" src="projetos/projeto one piece.png" alt="projeto one piece">
+                <p>Um projeto pessoal de 2023 quando estava aprendendo HTML e CSS</p>
+            </div>
+        </section>
+
+        <!-- Certificados -->
+        <section id="certificados">
+            <h2>Certificados</h2>
+            <div>
+                <h3></h3>
+                <img class="certificados" src="certificados/Validação Certificado Intensivão de JavaScript.png" alt="">
+            </div>
+            <div>
+                <h3></h3>
+                <img class="certificados" src="certificados/Validação Certificado Jornada Python da Hashtag.png" alt="">
+            </div>
+            <div>
+                <h3></h3>
+                <img class="certificados" src="certificados/Validação Certificado Trilha do Excel.png" alt="">
+            </div>
+        </section>
     </main>
 
     <footer>
+        <div>
             <p>Desenvolvido por Ryan D. Copyright &copy; 2025</p>
             <p>Inspirado no jogo Hollow Knight © Team Cherry</p>
+        </div>
     </footer>
+    <!-- <script src="script.js"></script> -->
 </body>
+
 </html>
