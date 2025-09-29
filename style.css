@@ -135,8 +135,8 @@ main {
 .section1 {
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 50px;
-    margin: 100px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .euImg {
@@ -171,20 +171,18 @@ main {
     transform: scale(1.01);
 }
 
-.projetos {
-    display: flex;
-    justify-content: center;
+.projetosSection {
+    background-color: #ff8c00;
     text-align: center;
+    padding:0px 50px;
 }
 
-.projetoOnePiece {
-    border: solid 2px;
-    margin: 0px 20px;
-    width: 200px;
+.projetosDiv {
+    border: 2px solid;
 }
 
-.projetoOnePieceImg {
-    width: 90%;
+.projetosImg {
+    width: 10%;
 }
 
 .certificados {
