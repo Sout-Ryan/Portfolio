@@ -172,25 +172,35 @@ main {
 }
 
 .projetosSection {
-    background-color: #ff8c00;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: blueviolet;
+    display: flex;
     text-align: center;
-    padding:0px 50px;
 }
 
 .projetosDiv {
-    border: 2px solid;
+    padding-top: 50px;
 }
 
 .projetosImg {
-    width: 10%;
+    width: 15%;
 }
 
-.certificados {
-    width: 300px;
+.sectionCertificado {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #ff8c00;
+    display: flex;
+    text-align: center;
 }
 
-.certificados:hover {
-    animation: alternate-reverse;
+.certificadosDiv {
+    padding-top: 50px;
+}
+
+.certificadosImg {
+    width: 20%;
 }
 
 footer {
