@@ -1,1 +1,1 @@
-window.alert("Falta responsividade 😅")
+window.alert("Falta responsividade 😅 Por favor veja em um computador")

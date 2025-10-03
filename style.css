@@ -171,7 +171,7 @@ main {
     transform: scale(1.01);
 }
 
-.sobreMim > p {
+.sobreMim>p {
     font-size: 1.1rem;
 }
 
@@ -179,13 +179,19 @@ main {
     color: white;
     text-align: center;
     margin-top: 100px;
+    padding-top: 5px;
     font-family: none;
+}
+
+.tituloBackground {
+    background-color: rgba(17, 26, 50, 0.8);
+    border-radius: 20px 20px 0px 0px;
 }
 
 .projetosSection {
     margin-bottom: 100px;
     background-color: rgba(17, 26, 50, 0.8);
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     display: flex;
     text-align: center;
     color: white;
