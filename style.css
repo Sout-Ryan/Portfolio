@@ -49,7 +49,7 @@ header {
 .logoImg {
     width: 15%;
     cursor: crosshair;
-    transition: 30.0s;
+    transition: 30s;
 }
 
 .logoImg:hover {
@@ -171,15 +171,21 @@ main {
     transform: scale(1.01);
 }
 
+.sobreMim > p {
+    font-size: 1.1rem;
+}
+
 .titulos {
     color: white;
     text-align: center;
     margin-top: 100px;
+    font-family: none;
 }
 
 .projetosSection {
     margin-bottom: 100px;
-    background-color: blueviolet;
+    background-color: rgba(17, 26, 50, 0.8);
+    border-radius: 20px;
     display: flex;
     text-align: center;
     color: white;
@@ -187,21 +193,25 @@ main {
 
 .projetosDiv {
     padding-top: 50px;
+    border: solid 2px;
+    width: 100%;
 }
 
 .projetosImg {
-    width: 35%;
+    width: 200px;
     border-radius: 5px;
     transition: 0.1s;
+    margin: 5px;
 }
 
 .projetosImg:hover {
     transform: scale(1.02);
 }
 
-.sectionCertificado {
+.certificadoSection {
     margin-bottom: 100px;
-    background-color: #ff8c00;
+    background-color: rgba(17, 26, 50, 0.8);
+    border-radius: 20px;
     display: flex;
     text-align: center;
     color: white;
@@ -209,12 +219,19 @@ main {
 
 .certificadosDiv {
     padding-top: 50px;
+    border: solid 2px;
+    width: 100%;
+}
+
+.certificadosDiv:target {
+    width: 90%;
 }
 
 .certificadosImg {
-    width: 35%;
+    width: 200px;
     border-radius: 5px;
     transition: 0.1s;
+    margin: 5px;
 }
 
 .certificadosImg:hover {
